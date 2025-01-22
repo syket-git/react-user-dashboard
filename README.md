@@ -1,46 +1,85 @@
-# Getting Started with Create React App
+### React User Dashboard 🚀  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**React User Dashboard** built using **React.js**, **Chakra UI**, and **TypeScript**. 
 
-## Available Scripts
+🌟 **Live Demo**: [React User Dashboard](https://react-user-dashboard-psi.vercel.app/)
 
-In the project directory, you can run:
+---
 
-### `yarn start`
+## Features ✨  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Light & Dark Mode**: Seamlessly switch between themes for a personalized experience.  
+- **Debounce Functionality**: Added debounce functionality to the search component to reduce API calls to the backend.
+- **Pagination**: Smooth and intuitive pagination for displaying large datasets efficiently.
+- **Robust Type Safety**: Built with **TypeScript**, ensuring reliable, maintainable, and scalable code.  
+- **Single Responsibility Pattern**: Focused components, each designed with a single purpose for better reusability.  
+- **Separation of Concerns**: Maintain clean and modular code by separating business logic from the presentation layer.  
+- **Custom Hooks**: Encapsulate business logic into reusable hooks to simplify and enhance maintainability.  
+- **Chakra UI for Design**: Responsive and accessible UI powered by Chakra UI for a professional look and feel.  
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `yarn test`
+## Tech Stack 🛠  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Frontend**: [React.js](https://react.dev/)  
+- **UI Library**: [Chakra UI](https://chakra-ui.com/)  
+- **Language**: [TypeScript](https://www.typescriptlang.org/)  
 
-### `yarn build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Project Structure 📂  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```plaintext  
+├── src/                 # Source code  
+│   ├── components/      # Reusable UI components  
+│   ├── hooks/           # Custom hooks for business logic  
+│   ├── interfaces/      # TypeScript interfaces  
+│   ├── pages/           # Page components  
+│   ├── services/        # Service and API logic  
+│   ├── App.tsx          # Root App component  
+```  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `yarn eject`
+## Installation & Setup 💻  
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Clone the repository:  
+   ```bash  
+   git clone https://github.com/syket-git/react-user-dashboard.git
+   ```  
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Navigate to the project directory:  
+   ```bash  
+   cd react-user-dashboard
+   ```  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+3. Install dependencies:  
+   ```bash  
+   npm install  
+   ```  
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+4. Run the development server:  
+   ```bash  
+   npm start  
+   ```  
 
-## Learn More
+5. Open your browser and navigate to `http://localhost:3000`.  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Deployment 🚀  
+
+This project is deployed on **Vercel**. Explore the live version here:  
+👉 [https://react-user-dashboard-psi.vercel.app/](https://react-user-dashboard-psi.vercel.app/)  
+
+
+---
+
+### Author 💡  
+
+Created by **[Syket Bhattachergee](https://github.com/syket-git)**  
+
+**Light Theme**
+![image](https://github.com/user-attachments/assets/07026088-c7e5-4763-8637-9fb7a9fd83bb)
+**Dark Theme**
+![image](https://github.com/user-attachments/assets/fe125486-e261-4bb3-8473-f0667a4edd1e)
