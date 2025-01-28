@@ -1,14 +1,21 @@
 import { Badge, Heading, HStack, Input } from "@chakra-ui/react";
 import { FC } from "react";
 import { ColorModeButton } from "../../components/ui/color-mode";
+import { Button } from "../ui/button";
 
 interface UsersHeaderProps {
   total: number;
   searchTerm: string;
   onSearch: (value: string) => void;
+  setIsOpen: (value: boolean) => void;
 }
 
-const UsersHeader: FC<UsersHeaderProps> = ({ total, searchTerm, onSearch }) => (
+const UsersHeader: FC<UsersHeaderProps> = ({
+  total,
+  searchTerm,
+  onSearch,
+  setIsOpen,
+}) => (
   <HStack justify="space-between" align="center" py="5">
     <HStack gap={6} align="center">
       <Heading size="xl">
@@ -21,7 +28,10 @@ const UsersHeader: FC<UsersHeaderProps> = ({ total, searchTerm, onSearch }) => (
         width="250px"
       />
     </HStack>
-    <ColorModeButton />
+    <HStack>
+      <Button onClick={() => setIsOpen(true)}>Add new user</Button>
+      <ColorModeButton />
+    </HStack>
   </HStack>
 );
 export default UsersHeader;
